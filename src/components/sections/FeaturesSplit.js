@@ -50,8 +50,8 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Workflow that just works',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'Nuestra forma de trabajar funciona',
+    paragraph: 'Para tu tranquilidad te comentamos rápidamente cual es la forma en la que trabajamos, así siempre vas a saber en qué parte del proceso te encuentras.'
   };
 
   return (
@@ -67,14 +67,14 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
-                  </div>
+                  Contáctate!
+                </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
-                  </h3>
+                  Contactate con nosotros para poder tener una primer conversación y agendar una reunión.
+                </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
+                  Usa cualquiera de los botones que aparecen en está web para usar el medio de contacto que mejor se ajuste a tus posibilidades. Nosotros estaremos contentos de atenderte lo más pronto posible.
+                </p>
               </div>
               <div className={
                 classNames(
@@ -93,14 +93,14 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
-                  </div>
+                  Agendemos una visita
+                </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
-                  </h3>
+                  Una vez que sepamos el problema, podemos agendar una visita para ver el trabajo.
+                </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
+                  Es necesario que vayamos a verlo personalmente para ofrecer las mejores garantías al respecto del presupuesto que llevará acabo y de esa forma poder empezar a últimas detalles.
+                </p>
               </div>
               <div className={
                 classNames(
@@ -119,14 +119,14 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
-                  </div>
+                  Presupuestamos
+                </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
-                  </h3>
+                  A la brevedad le responderemos con un presupuesto acorde.
+                </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
+                  Los presupuestos siempre incluyen el coste de los materiales y un informe detallado de cuanto tiempo aproximadamente va a llevar el trabajo.
+                </p>
               </div>
               <div className={
                 classNames(
@@ -142,6 +142,31 @@ const FeaturesSplit = ({
               </div>
             </div>
 
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  Comenzamos
+                </div>
+                <h3 className="mt-0 mb-12">
+                  Cuando todo este resuelto pactamos fecha para dar inicio al proyecto.
+                </h3>
+                <p className="m-0">
+                  Cuando todas tus dudas esten resueltas podremos finalmente sellar una fecha de compromiso en la cual nos comprometemos a arrancar con el trabajo y estar un paso más cerca de realizar tu objetivo.
+                </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/features-split-image-02.png')}
+                  alt="Features split 02"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
           </div>
         </div>
       </div>
